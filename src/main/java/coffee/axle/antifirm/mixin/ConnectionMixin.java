@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import coffee.axle.antifirm.FuckFirmament;
+import coffee.axle.antifirm.AntiFirm;
 import io.netty.channel.ChannelFutureListener;
 
 @Mixin(Connection.class)
@@ -25,7 +25,7 @@ public class ConnectionMixin {
             CustomPacketPayload.Type<?> type = payload.type();
 
             if (type != null && FIRMAMENT_MOD_LIST.equals(type.id())) {
-                FuckFirmament.LOGGER.info("Blocked Firmament mod announcer packet (evil)");
+                AntiFirm.LOGGER.info("Blocked Firmament mod announcer packet (evil)");
                 ci.cancel();
             }
         }
