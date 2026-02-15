@@ -6,6 +6,8 @@ This mod attempts to block the [ModAnnouncer](https://github.com/FirmamentMC/Fir
 
 This is NOT normal Fabric behavior - as only Forge has a mod announcer built in, and personally I don't see a need for one to exist in Fabric. No server is required to see my mod's folder (MOD IDs) and no singular mod should be sending this information out without prior consent/knowledge.
 
+support if it breaks can be gotten [Here](https://discord.gg/4umJGqwftc)
+
 # License
 
 I am a catboy; therefore, everything is open source. Feel free to skid this 52 different times, I really don't care. If it breaks dm me on discord - @axle.coffee or open a github issue or fix it yourself and open a PR
