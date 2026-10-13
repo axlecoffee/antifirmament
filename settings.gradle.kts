@@ -38,8 +38,8 @@ buildscript {
 
 blahaj {
 	init(rootProject) {
-		mc("1.21.10", "fabric")
-		// mc("1.21.11", "fabric") // 1.21.10 works for this as well
+		// mc("1.21.10", "fabric")
+		// // mc("1.21.11", "fabric") // 1.21.10 works for this as well
 		mc("26.1.2", "fabric")
 		mc("26.2", "fabric")
 		mc("26.3", "fabric")
