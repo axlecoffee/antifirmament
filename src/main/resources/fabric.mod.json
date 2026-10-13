@@ -11,7 +11,7 @@
 		"sources": "https://github.com/${github}/${name}"
 	},
 	"license": "${license}",
-	"icon": "assets/${id}/icon.png",
+	"icon": "assets/antifirm/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"client": [
